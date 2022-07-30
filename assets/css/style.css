@@ -86,58 +86,26 @@ p {
     background-color: #2589bd;
 }
 
-/*same thing 3 times*/
-.benefit-lead {
+/*done*/
+.benefits {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*same thing 3 times*/
-.benefit-lead h3 {
+/*done*/
+.benefits h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*same things 3 times*/
-.benefit-lead img {
+/*done*/
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*3 of the SAME CSS CODES!!!*/
+/*keep*/
 .content-area {
     margin-bottom: 20px;
     padding: 50px;
@@ -147,31 +115,13 @@ p {
     color: #ffffff;
 }
 
-/*images all have same height */
-.search-engine-optimization img {
+/*done*/
+.content img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/*same things 3 times */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/*done*/
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -183,7 +133,6 @@ p {
     text-align: center;
 }
 
-/*combine in footer*/
 .footer h2 {
     font-size: 20px;
 }
