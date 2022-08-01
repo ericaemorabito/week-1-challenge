@@ -45,6 +45,11 @@ span {
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /*Central image of team working*/
 .hero {
     height: 800px;
