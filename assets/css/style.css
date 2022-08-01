@@ -8,6 +8,10 @@ body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,21 +36,16 @@ span {
     font-size: 20px;
 }
 
-/*links still are not like the picture. Want to consolidate and make like picture*/
+/*Header links*/
 #links {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
     color: #ffffff;
     text-decoration: none;
 }
 
-/*to be consolidated*/
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
+/*Central image of team working*/
 .hero {
     height: 800px;
     width: 100%;
@@ -56,14 +55,11 @@ a {
     background-position: center;
 }
 
+/*Three central sections*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-p {
-    font-size: 16px;
 }
 
 .content img {
@@ -85,6 +81,7 @@ p {
     margin-left: 25px;
 }
 
+/*Each of the three central sections of information*/
 .content-area {
     margin-bottom: 20px;
     padding: 50px;
@@ -94,6 +91,7 @@ p {
     color: #ffffff;
 }
 
+/*Right collumn of information*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
