@@ -32,7 +32,7 @@ span {
     font-size: 20px;
 }
 
-/*links still are not like the picture*/
+/*links still are not like the picture. Want to consolidate and make like picture*/
 #links {
     list-style-type: none;
     display: inline-block;
@@ -41,19 +41,10 @@ span {
     text-decoration: none;
 }
 
-.header section ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
+/*to be consolidated*/
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -65,7 +56,25 @@ p {
     background-position: center;
 }
 
-/*keep*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,13 +85,15 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.content-area {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-/*done*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,41 +107,17 @@ p {
     color: #ffffff
 }
 
-/*done*/
 .benefits h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*done*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*keep*/
-.content-area {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*done*/
-.content img {
-    max-height: 200px;
-}
-
-/*done*/
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*keep*/
 footer {
     padding: 30px;
     clear: both;
@@ -138,7 +125,6 @@ footer {
     text-align: center;
 }
 
-/*keep*/
 footer h2 {
     font-size: 20px;
 }
